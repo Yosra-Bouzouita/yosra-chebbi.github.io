@@ -272,7 +272,7 @@ h4 {
 }
 @media all and (max-width: 991px) {
   .block__btn .iconbouton {
-    height: 129px;
+    height: 135px;
     width: 2px;
   }
 }
