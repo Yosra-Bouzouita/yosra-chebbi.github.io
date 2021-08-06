@@ -334,11 +334,13 @@ h2 {
   font-size: 1.9em;
 }
 .restaurants__adresse .text {
+  text-decoration: none;
   position: absolute;
   top: 12%;
   right: 5%;
 }
 .restaurants__adresse .text1 {
+  text-decoration: none;
   position: absolute;
   top: 12%;
   right: 55%;
@@ -428,7 +430,7 @@ h2 {
     height: 400px;
   }
   .restaurants__adresse--bouton .image {
-    height: 180px;
+    height: 170px;
   }
   .restaurants__adresse .text {
     position: absolute;
@@ -443,12 +445,12 @@ h2 {
 
   .heartempty {
     position: relative;
-    bottom: 5rem;
+    bottom: 3.2rem;
   }
 
   .heart {
     position: relative;
-    bottom: 7.8rem;
+    bottom: 5.7rem;
   }
 }
 .footer {
