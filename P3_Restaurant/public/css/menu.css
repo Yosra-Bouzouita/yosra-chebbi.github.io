@@ -32,10 +32,9 @@
   font-display: swap;
 }
 .Shrikhand-Regular {
-  font-family: " Shrikhand-Regular";
+  font-family: "Shrikhand-Regular";
 }
 
-/* Header */
 .header {
   display: flex;
 }
@@ -71,7 +70,6 @@
   color: black;
 }
 
-/* partie1 de "main" */
 .image {
   margin-top: 20px;
   width: 99.3%;
@@ -79,7 +77,6 @@
   object-fit: cover;
 }
 
-/* partie2 de "main" */
 .menu {
   width: 98.5%;
   display: block;
@@ -131,7 +128,6 @@
   }
 }
 
-/* partie2 de "main":les entrées,les plats et les desserts */
 h4 {
   color: gray;
   font-family: "Roboto-Light";
@@ -289,7 +285,6 @@ h4 {
   transform: rotate(180deg);
 }
 
-/* partie2 de "main":bouton commander */
 .bouton {
   text-align: center;
 }
@@ -311,7 +306,6 @@ h4 {
   background: radial-gradient(circle, #c9abee 0%, #8641d8 100%);
 }
 
-/* Footer */
 .footer {
   position: absolute;
   top: 1280px;

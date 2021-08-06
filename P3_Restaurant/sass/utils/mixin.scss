@@ -1,0 +1,17 @@
+@mixin body-animation {
+    overflow: hidden;
+    background-size: cover;
+    z-index: 1;
+    animation: logo $loader-dur $body-delay both;
+    opacity: 0;
+  }
+  @mixin body-logo {
+    @keyframes logo {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  }

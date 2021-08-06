@@ -1,0 +1,122 @@
+h4 {
+    color: gray;
+    font-family: "Roboto-Light";
+    border-bottom: 2px solid $color-tertiary;
+    width: 35px;
+    padding-bottom: 2px;
+}
+ .menufrance{
+   display: flex;
+   @media all and (max-width: 991px) {    
+    display: flex;
+    flex-direction: column;
+  }
+ }
+   .block{
+     width: 31%;
+     padding-left: 1.7%; 
+     display: flex;
+     flex-direction: column;
+     @media all and (max-width: 991px) { 
+      width: 100%;
+     }
+         &__btn {
+          display: flex;
+          height: 127px;
+          background-color: white;
+          width: 100%;
+          margin-top: 30px;
+          border-radius: 30px;
+          font-size: 1.3em;
+          text-align: left;
+          border: none;
+          box-shadow: 6px 6px 6px lightgray;
+          cursor: pointer;
+          margin-right: 2%;
+          animation: boutons $loader-dur backwards ease-in-out;
+          @for $i from 1 through 10 {
+           &--#{$i} {
+          animation-delay: $body-delay * $i;
+      }
+  }
+  @keyframes boutons {
+    0% { 
+        opacity: 0;
+    }  
+    100% { 
+        opacity: 1;
+    }
+}
+
+     @media all and (max-width: 991px) {
+      width: 95%;
+      height: 127px;
+     }
+     
+      &:hover {
+       .iconbouton {
+          width: 9rem;
+          opacity: 1;
+          @media all and (max-width: 991px) {
+            width: 9rem;
+          }
+            .fa-check-circle {
+              opacity: 1;
+              transform:rotate(0deg);
+      }
+    }
+          .block__btn--paragraphe2{
+          transform:translateX(-50%);
+        }
+      
+     }
+     &--paragraphe {
+         line-height: 2em;
+         width: 75%;
+         margin-left: 20px;
+         margin-right: 5%;
+         white-space: nowrap;
+         text-overflow: ellipsis;
+         overflow: hidden;
+         font-family: "Roboto-Light";
+      @media all and (max-width: 991px) {
+        width: 85%;
+    }
+    }
+    &--paragraphe2 {
+         position: relative;
+         top: 50px;
+         font-family: "Roboto-Light";
+         transform:translateX(0);
+         transition-duration: 300ms;
+       }
+      .iconbouton {
+         height: 128px;
+         position: relative;
+         left:1px;
+         bottom: 1px;
+         border-radius: 0px 30px 30px 0px;
+         background-color: $color-tertiary;
+         width: 1px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         transition-duration: 0.5s;
+         animation-fill-mode:both;
+         transform-origin: right;
+         opacity: 0;
+       @media all and (max-width: 991px) {
+         height: 127px;
+         width: 2px;
+       }
+       .fa-check-circle {
+          color: white;
+          border-radius: 50%;
+          font-size: 1.5em;
+          background-color: #99e2d0;
+          transition-duration: 0.5s;
+          transform:rotate(180deg);
+       }
+      }
+  }
+}
