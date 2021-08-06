@@ -5,9 +5,9 @@
   "main": "index.js",
   
   "scripts": {
-    "sass": "sass ./sass/menu.scss:.public/css/menu.css  ./sass/main.scss:.public/css/style.css ",
-    "prefix": "postcss ./.public/css/style.css --use autoprefixer -d ./.public/css/",
-    "prefix_menu": "postcss ./.public/css/menu.css --use autoprefixer -d ./.public/css/"
+    "sass": "sass ./sass/menu.scss:public/css/menu.css  ./sass/main.scss:public/css/style.css ",
+    "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/",
+    "prefix_menu": "postcss ./public/css/menu.css --use autoprefixer -d ./public/css/"
   },
   "repository": {
     "type": "git",
