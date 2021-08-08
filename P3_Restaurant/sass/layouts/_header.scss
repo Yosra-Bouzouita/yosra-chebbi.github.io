@@ -1,0 +1,22 @@
+.header {
+    &__logo {
+      position: absolute;
+      top: 10px;
+      text-align: center;
+      background-color: white;
+      padding-top: 3rem;
+      padding-bottom: 2rem;
+      padding-left: 37%;
+      padding-right: 36%;
+      @include body-animation;
+      @include body-logo;
+      .photo {
+        width: 100%;
+        @media all and (max-width: 800px) {
+          width: 150%;
+          position: relative;
+          right: 15%;
+        }
+      }
+    }
+  }

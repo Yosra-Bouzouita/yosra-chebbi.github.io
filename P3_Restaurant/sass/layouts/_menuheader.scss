@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    &__logo {
+      padding-left: 35%;
+      padding-right: 38%;
+      .photo {
+          width: 120%;
+          margin-top: 20px;
+          @media all and (max-width: 900px) {
+            width: 150%; 
+          }
+          @media all and (max-width:600px) {
+            width: 250%; 
+            position:relative;
+            right:50%;
+         }
+     }
+  }
+   &__icon { 
+       position:relative;
+       left:4%;
+       top: 30px;
+       list-style-type: none;
+       font-size: 150%;
+       .flèche {
+          text-decoration: none;
+          color: black;  
+      }
+    }
+  }
