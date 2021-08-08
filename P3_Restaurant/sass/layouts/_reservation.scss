@@ -1,3 +1,46 @@
+.form {
+  &__localisation {
+    & input {
+      width: 98.2%;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      position: absolute;
+      top: 150px;
+      background-color: rgb(240, 240, 240);
+      border: none;
+      font-size: 100%;
+      font-weight: bold;
+      text-align: center;
+      border-top: solid rgb(226, 226, 226);
+      font-family: "Roboto-Thin";
+      @include body-animation;
+      @include body-logo;
+    }
+  }
+}
+#icon {
+  position: absolute;
+  top: 180px;
+  left: 40%;
+  font-size: 100%;
+  @include body-animation;
+  @include body-logo;
+}
+@media all and (min-width: 800px) and (max-width: 1100px) {
+  #icon {
+    position: absolute;
+    top: 180px;
+    left: 39%;
+  }
+}
+@media all and (max-width: 800px) {
+  #icon {
+    position: absolute;
+    top: 180px;
+    left: 29%;
+  }
+}
+
 .reservation {
     width: 98.3%;
     padding-top: 30px;
