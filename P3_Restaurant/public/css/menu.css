@@ -91,7 +91,7 @@
     width: 97.6%;
   }
 }
-@media all and (max-width: 600px) {
+@media all and (max-width: 500px) {
   .menu {
     width: 96.7%;
   }
