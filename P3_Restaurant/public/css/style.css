@@ -286,6 +286,15 @@
     right: 20px;
   }
 }
+@media all and (max-width: 330px) {
+  .fonctionnement .fonctionnement__btn {
+    font-size: 0.8em;
+  }
+  .fonctionnement .fa-stack-1x {
+    position: relative;
+    top: 10%;
+  }
+}
 
 h2 {
   text-align: left;
