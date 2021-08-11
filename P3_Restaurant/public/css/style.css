@@ -374,6 +374,11 @@ h2 {
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
 }
+@media all and (max-width: 600px) {
+  .restaurants__adresse--bouton .lien .image {
+    height: 270px;
+  }
+}
 .restaurants__adresse--bouton .lien .paragrapheimage {
   position: relative;
   top: 15px;
@@ -436,9 +441,6 @@ h2 {
     width: 96%;
     margin-bottom: 30px;
     height: 400px;
-  }
-  .restaurants__adresse--bouton .image {
-    height: 170px;
   }
   .restaurants__adresse .text {
     position: absolute;

@@ -54,7 +54,10 @@
              height: 300px;
              object-fit: cover;
              border-radius: 20px 20px 0px 0px;
+             @media all and (max-width: 600px) {
+              height: 270px;
         }
+      }
            .paragrapheimage {
              position:relative;
              top: 15px;
@@ -123,9 +126,7 @@
          width: 96%;
          margin-bottom: 30px;
          height: 400px;
-          .image {
-            height: 170px;
-   }
+   
   }
       .text {
         position: absolute;
@@ -148,3 +149,5 @@
     bottom: 5.7rem;
     }
   }
+  
+  
