@@ -98,10 +98,7 @@
         -o-transition: opacity 2s;
         transition: opacity 2s;
         }
-      &:hover::after {
-        content: "";
-        opacity: 1;
-        }
+      
     .fa-gradient {
         background: -webkit-gradient(
         linear,

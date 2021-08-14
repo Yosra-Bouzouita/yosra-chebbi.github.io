@@ -418,10 +418,6 @@ h2 {
   -o-transition: opacity 2s;
   transition: opacity 2s;
 }
-.heart:hover::after {
-  content: "";
-  opacity: 1;
-}
 .heart .fa-gradient {
   background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
   -webkit-background-clip: text;
