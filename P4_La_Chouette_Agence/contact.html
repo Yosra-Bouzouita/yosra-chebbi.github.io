@@ -26,16 +26,13 @@
     <title>Contacter La chouette agence</title>
 </head>
 
-<body>
-<!-- main : Principal conteneur -->
-<main class="page-container">
-    
+<body> 
 <!-- header est la partie haute de la page web qui contient le logo et le menu de navigation   -->
 <header class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" id="sigle" href="#"><img src="img/la-chouette-agence.png" width="200" height="40" alt="atlanta web design logo" /></a>
+				<a class="navbar-brand" id="sigle" href="#"><img src="img/la-chouette-agence.png" width="200" height="40" alt="logo de la chouette agence" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -75,6 +72,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm">
+				<h2>Formulaire de contact </h2>
 				<form id="form_1" novalidate >
 					<!--success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"-->
 					<div class="form-group">
@@ -100,16 +98,17 @@
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label><textarea placeholder="Ex :..." id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"  type="submit">
 						Envoyer
 					</button>
 				</form>
 			</div>
-			<div class="col-sm">
+			<h2> Nos coordonnées </h2>
+			<address class="col-sm">
 				<p>
 					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 				</p>
-			</div>
+			</address>
 		</div>
 	</div>
 </div>
@@ -155,7 +154,6 @@
 </footer>
 <!-- Footer - bloc-8 END -->
 
-</main>
 <!-- Principal conteneur END -->
     
 
